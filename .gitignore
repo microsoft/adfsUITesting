@@ -9,6 +9,9 @@
 *.userosscache
 *.sln.docstates
 
+# ALWAYS ignore the credential configuration, so nobody checks in their API keys
+App.config
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
